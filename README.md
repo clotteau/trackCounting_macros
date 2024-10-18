@@ -21,9 +21,9 @@ This analysis should be done multiple times by modifying ```signedIP2D[x]``` lik
 
 ## Third macro: ```macro_eff_pur_jet_pT_N123.C```
 
-This macro computes the efficiency and the purity of the b-tagging for different intervals of jet pT. The sIP threshold is chosen manually (0.008cm) and stays the same. Instead of divide by the total number of b/c/lf-jets to compute the purity and the efficiency, we divide by the number of b/c/lf-jets in the jet pT interval we chose.
+This macro computes the efficiency and the purity of the b-tagging for different intervals of jet pT. The sIP threshold is chosen manually (0.008cm in my analysis) and stays the same. Instead of dividing by the total number of b/c/lf-jets to compute the purity and the efficiency, we divide by the number of b/c/lf-jets in the jet pT interval we chose. The default interval is between pT and pT+1.
 
-Once the purity and efficiency have been calculated for all jet pT intervals from 5 GeV/c to 200 GeV/c, the macro plots these distributions vs. the jet pT. 
+Once the purity and efficiency have been calculated for all jet pT intervals (from 5 GeV/c to 200 GeV/c for example), the macro plots these distributions vs. the jet pT.
 
 This analysis should be done multiple times by modifying ```signedIP2D[x]``` like in the macro ```macro_sIP_N123.C```
 
