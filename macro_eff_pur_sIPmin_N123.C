@@ -9,7 +9,7 @@
 // granted to it by virtue of its status as an Intergovernmental Organization
 // or submit itself to any jurisdiction.
 
-/// \file macro_eff_pur_sIP_threshold_N123.C
+/// \file macro_eff_pur_sIPmin_N123.C
 /// \brief Macro to plot the efficiency of b tagging with signed Impact Parameter (2D) and purity of c-lf jets vs. sIP threshold. Uses the AO2D outputs of bjetTreeMerger.cxx
 ///
 /// \author Clement Lotteau <clement.lotteau@cern.ch> IP2I
